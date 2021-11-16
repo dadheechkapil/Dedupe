@@ -131,6 +131,7 @@ view: ccd_master_hashed_july2021_only_required_fields {
   measure: Distinct_Count_of_User_ID{
     type: count_distinct
     sql: ${User_ID} ;;
+    value_format_name: decimal_0
   }
     measure: Distinct_count_of_Clean_Primary_Mobile {
       type: count_distinct
