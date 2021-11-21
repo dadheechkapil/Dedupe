@@ -19,6 +19,7 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
 #   }
 # }
 
+
 explore: ccd_master_hashed_july2021_only_required_field {
 
   from: ccd_master_hashed_july2021_only_required_fields
